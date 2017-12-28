@@ -1,2 +1,4 @@
-# ud036_StarterCode
-Source code for a Movie Trailer website.
+# Udacity Fullstack Developer Nanaodegree
+## Movie Trailer Website Project
+
+
