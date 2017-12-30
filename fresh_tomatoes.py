@@ -150,7 +150,7 @@ def create_movie_tiles_content(movies):
     return content
 
 
-def open_movies_page(movies):
+def create_movies_page(movies):
     # Create or overwrite the output file
     THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
     my_file = os.path.join(THIS_FOLDER, 'fresh_tomatoes.html')
@@ -163,7 +163,3 @@ def open_movies_page(movies):
     # Output the file
     output_file.write(main_page_head + rendered_content)
     output_file.close()
-
-    # open the output file in the browser (in a new tab, if possible)
-    #url = os.path.abspath(output_file.name)
-    #webbrowser.open('file://' + url, new=2)
